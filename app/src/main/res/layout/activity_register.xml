@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2DEDE"
+    tools:context=".Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:background="@drawable/regist"
+    />
+        <TextView
+            android:id="@+id/txtreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:layout_marginTop="90dp"
+            android:textSize="60dp"
+            android:fontFamily="@font/bold"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginLeft="85dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+        >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="670dp"
+                android:background="@drawable/regnside"/>
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/logn">
+
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   Username"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+           android:drawableLeft="@drawable/ic_person_black_24dp"
+            />
+        <EditText
+            android:id="@+id/txtmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtname"
+            android:hint="    Email"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:drawableLeft="@drawable/ic_mail_black_24dp"
+            />
+        <EditText
+            android:id="@+id/txtdob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtmail"
+            android:hint="   DOB"
+            android:clickable="false"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:drawableLeft="@drawable/ic_filter_9_plus_black_24dp"
+
+            />
+        <EditText
+            android:id="@+id/txtage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtdob"
+            android:hint="   Age"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:drawableLeft="@drawable/ic_local_library_black_24dp"
+            />
+        <EditText
+            android:id="@+id/textpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtage"
+            android:hint="   Password"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            />
+        <EditText
+            android:id="@+id/textph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textpass"
+            android:hint="   Phone no:"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            />
+        <Button
+            android:id="@+id/btnreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textph"
+            android:text="SIGN UP"
+            android:layout_marginLeft="200dp"
+            android:fontFamily="cursive"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>

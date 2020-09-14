@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    tools:context=".Login">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/log"
+            />
+        <TextView
+            android:id="@+id/txtlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:layout_marginTop="100dp"
+            android:textSize="90dp"
+            android:fontFamily="@font/bold"
+            android:layout_marginLeft="60dp"
+            android:textColor="#292727"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/logn">
+        <EditText
+            android:id="@+id/txtph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:hint="   Phone no:"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:textSize="40dp"
+            android:fontFamily="cursive"
+
+            />
+        <EditText
+            android:id="@+id/txtpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:hint="  Password"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:textSize="40dp"
+            android:fontFamily="cursive"
+            />
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:text="LOG IN"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:layout_marginLeft="180dp"
+            />
+
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New user? Sign Up"
+        android:textColor="#000"
+        android:layout_marginTop="680dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="110dp"
+
+
+        />
+
+</RelativeLayout>
